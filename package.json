@@ -1,0 +1,27 @@
+{
+  "name": "cydemo",
+  "version": "1.0.0",
+  "description": "automacao de testes",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yasminjulia/cy.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Julia Guimaraes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yasminjulia/cy/issues"
+  },
+  "homepage": "https://github.com/yasminjulia/cy#readme",
+  "dependencies": {
+    "cypress": "^4.0.0",
+    "git": "^0.1.5"
+  }
+}
