@@ -4,6 +4,11 @@ describe('Testcase 01', () => {
     })
     it('Procurando um frigobar para meu ap novo', () =>{
         cy.get(id="q").type('frigobar')
+        cy.get().click()
+        cy.get(class{"submitBtn"}).click()
+       // cy.get('button[type=submit]').as('submitBtn')
+        //cy.get(class{"link"}).find("DDD 71 - Salvador")
+        
 
         
         cy.get('.gLFyf').type('{enter}')
@@ -11,3 +16,5 @@ describe('Testcase 01', () => {
         cy.get(':nth-child(3) > .cr').contains('Engenheira de Controle e Automação')
     })
 });
+
+//*[@id="___gatsby"]/div[3]/div[3]/div[2]/div[1]/div/div[2]/div/a[8]
